@@ -11,6 +11,7 @@
 ## About The Project
 
 This project is following rocketseat react-native bootcamp.
+<br/>
 Figma: https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=0%3A1
 
 ### Built With
