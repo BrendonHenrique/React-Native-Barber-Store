@@ -1,8 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">React Native Barber Store App</h3>
     <p align="center">
