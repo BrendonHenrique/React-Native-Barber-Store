@@ -11,7 +11,7 @@ import theme from "configs/theme";
 import { Formik } from "formik";
 import * as React from "react";
 import { useRef } from "react";
-import { Image, ScrollView, Text } from "react-native";
+import { Image, ScrollView } from "react-native";
 import * as Yup from "yup";
 
 const SignInSchema = Yup.object().shape({

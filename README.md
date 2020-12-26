@@ -14,6 +14,13 @@ This project is following rocketseat react-native bootcamp.
 <br/>
 Figma: https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=0%3A1
 
+### SingIn & SingUp Pages
+
+<br />
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png" alt="Logo" width="350" height="800" >
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png" alt="Logo" width="350" height="800" >
+</p>
 ### Built With
 
 - [React-native](#)
