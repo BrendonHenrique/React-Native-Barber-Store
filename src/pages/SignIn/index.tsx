@@ -12,6 +12,7 @@ import { Formik } from "formik";
 import * as React from "react";
 import { useRef } from "react";
 import { Image, ScrollView } from "react-native";
+import { loginAccount } from "services/login";
 import * as Yup from "yup";
 
 const SignInSchema = Yup.object().shape({
@@ -37,7 +38,7 @@ const SignIn: React.FC = () => {
           <Title>Faça seu login</Title>
           <Formik
             initialValues={{ email: "", password: "" }}
-            onSubmit={(values) => console.log(values)}
+            onSubmit={loginAccount}
             validationSchema={SignInSchema}
           >
             {({

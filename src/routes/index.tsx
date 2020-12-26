@@ -5,15 +5,21 @@ import * as React from "react";
 
 const Auth = createStackNavigator();
 
-const AuthRoutes: React.FC = () => (
-  <Auth.Navigator
-    screenOptions={{
-      headerShown: false,
-    }}
-    initialRouteName="SignIn"
-  >
-    <Auth.Screen name="SignIn" component={SignIn} />
-    <Auth.Screen name="SignUp" component={SignUp} />
-  </Auth.Navigator>
-);
+type AuthRoutesProps = {
+  authenticated?: boolean;
+};
+
+const AuthRoutes: React.FC<AuthRoutesProps> = ({ authenticated }) => {
+  return (
+    <Auth.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}
+      initialRouteName="SignIn"
+    >
+      <Auth.Screen name="SignIn" component={SignIn} />
+      <Auth.Screen name="SignUp" component={SignUp} />
+    </Auth.Navigator>
+  );
+};
 export default AuthRoutes;

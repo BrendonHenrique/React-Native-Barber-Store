@@ -11,6 +11,8 @@ import { Formik } from "formik";
 import * as React from "react";
 import { useRef } from "react";
 import { Image, ScrollView } from "react-native";
+import { registerAccount } from "services/register";
+import AccountType from "types/AccountType";
 import * as Yup from "yup";
 
 const SignUpSchema = Yup.object().shape({
@@ -24,6 +26,12 @@ const SignUp: React.FC = () => {
   const passwordInputRef = useRef(null);
   const emailInputRef = useRef(null);
 
+  const initialAccountState: AccountType = {
+    nome: "",
+    email: "",
+    password: "",
+  };
+
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
       <Container
@@ -36,8 +44,8 @@ const SignUp: React.FC = () => {
         <Image source={logoImg} />
         <Title>Crie sua conta</Title>
         <Formik
-          initialValues={{ nome: "", email: "", password: "" }}
-          onSubmit={(values) => console.log(values)}
+          initialValues={initialAccountState}
+          onSubmit={registerAccount}
           validationSchema={SignUpSchema}
         >
           {({

@@ -14,8 +14,10 @@ module.exports = function (api) {
             assets: "./src/assets",
             types: "./src/types",
             utils: "./src/utils",
+            services: "./src/services",
           },
         },
+        "inline-dotenv",
       ],
     ],
   };
