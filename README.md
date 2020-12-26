@@ -18,8 +18,8 @@ Figma: https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=0%3A1
 
 <br />
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png" alt="Logo" width="350" height="800" >
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png" alt="Logo" width="350" height="800" >
+  <img src="https://github.com/BrendonHenrique/React-Native-Barber-Store/blob/master/screenshots/Screenshot_1608948547.png" alt="Logo" width="350" height="800" >
+  <img src="https://raw.githubusercontent.com/BrendonHenrique/React-Native-Barber-Store/master/screenshots/Screenshot_1608948591.png" alt="Logo" width="350" height="800" >
 </p>
 ### Built With
 
