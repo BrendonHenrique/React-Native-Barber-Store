@@ -12,16 +12,16 @@ export const BottomButton = styled.TouchableOpacity`
   left: 0;
   border-top-width: 1px;
   flex-direction: row;
-  background: ${({ theme }) => theme.dark};
-  border-color: ${({ theme }) => theme.darkPurple};
+  background: ${({ theme }) => theme?.dark || "transparent"};
+  border-color: ${({ theme }) => theme?.darkPurple || "transparent"};
   ${verticalPadding(16)};
   ${alignCenter()};
   ${justifyCenter()};
 `;
 
 export const BottomButtonText = styled.Text`
-  color: ${({ theme, fontColor }) => fontColor || theme.orange};
+  color: ${({ theme, fontColor }) => fontColor || theme?.orange || "black"};
   font-size: 16px;
-  font-family: ${({ theme }) => theme.fontRegular};
+  font-family: ${({ theme }) => theme?.fontRegular || "Sans-Serif"};
   margin-left: 20px;
 `;

@@ -6,8 +6,8 @@ import { TextInputProps } from "react-native";
 import { Container, TextInput } from "./styles";
 
 interface InputProps extends TextInputProps {
-  name: string;
-  icon: string;
+  name?: string;
+  icon?: string;
   ref?: React.ElementRef<typeof TextInput>;
   isInvalid?: boolean;
 }

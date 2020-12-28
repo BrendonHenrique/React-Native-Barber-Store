@@ -20,7 +20,7 @@ export const Container = styled.View<ContainerProps>`
   width: 100%;
   height: 60px;
   ${horizontalPadding(16)};
-  background: ${({ theme }) => theme.darkPurple};
+  background: ${({ theme }) => theme.darkPurple || "transparent"};
   border-radius: 10px;
   margin-bottom: 16px;
   flex-direction: row;
@@ -31,8 +31,8 @@ export const Container = styled.View<ContainerProps>`
 
 export const TextInput = styled.TextInput`
   ${fullSpace()};
-  color: ${({ theme }) => theme.light};
+  color: ${({ theme }) => theme.light || "black"};
   font-size: 16px;
   margin-left: 16px;
-  font-family: ${({ theme }) => theme.fontMedium};
+  font-family: ${({ theme }) => theme.fontMedium || "Sans-Serif"};
 `;

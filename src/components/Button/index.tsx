@@ -5,7 +5,7 @@ import ContainerType from "types/ContainerType";
 import { ButtonContainer, ButtonText } from "./styles";
 
 interface ButtonProps extends RectButtonProperties, ContainerType {
-  children: string;
+  children?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ children, ...props }) => {

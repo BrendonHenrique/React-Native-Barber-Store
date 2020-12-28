@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderRadius": 6,
+        "height": 60,
+        "justifyContent": "center",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontFamily": "Sans-Serif",
+          "fontSize": 18,
+        },
+      ]
+    }
+  />
+</View>
+`;

@@ -27,6 +27,7 @@ Figma: https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=0%3A1
 - [Typescript](#)
 - [Babel](#)
 - [Jest](#)
-- [Testing library](#)
+- [React Native Testing library](#)
 - [Formik](#)
 - [Yup](#)
+- [Firebase](#)

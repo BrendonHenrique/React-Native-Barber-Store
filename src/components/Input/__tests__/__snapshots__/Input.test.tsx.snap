@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> snapshot 1`] = `
+<View
+  isFocused={false}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "height": 60,
+        "marginBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text />
+  <TextInput
+    allowFontScaling={true}
+    onEndEditing={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#666360"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "fontFamily": "Sans-Serif",
+          "fontSize": 16,
+          "marginLeft": 16,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

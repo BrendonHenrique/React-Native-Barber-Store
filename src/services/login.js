@@ -8,7 +8,7 @@ export const loginAccount = ({ email, password }) => {
     .auth()
     .signInWithEmailAndPassword(email, password)
     .then((response) => {
-      const uid = response.user.uid;
+      const { uid }= response.user;
       const accountsDB = firebase.firestore().collection(Collections.ACCOUNTS);
       accountsDB
         .doc(uid)
@@ -19,6 +19,7 @@ export const loginAccount = ({ email, password }) => {
             return;
           }
           const account = firestoreDocument.data();
+          // TODO SAVE AT STORE
           Toast.show(LoginService.SUCCESS);
         })
         .catch(() => Toast.show(LoginService.ERROR));

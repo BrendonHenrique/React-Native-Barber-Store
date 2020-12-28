@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container/> snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+  theme={
+    Object {
+      "dark": "#312E38",
+      "darkPurple": "#232129",
+      "error": "#B00020",
+      "fontMedium": "RobotoSlab-Medium",
+      "fontRegular": "RobotoSlab-Regular",
+      "grey": "#666360",
+      "light": "#f4ede8",
+      "orange": "#ff9000",
+      "purple": "#7159c1",
+    }
+  }
+/>
+`;

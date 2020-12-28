@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title/> snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "black",
+        "fontFamily": "Sans-Serif",
+        "fontSize": 20,
+        "marginBottom": 24,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 64,
+      },
+    ]
+  }
+/>
+`;
