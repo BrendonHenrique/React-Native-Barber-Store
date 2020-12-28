@@ -11,6 +11,7 @@
 ## About The Project
 
 This project is following rocketseat react-native bootcamp.
+### Disclaimer: i'm not following everything from the bootcamp, I'd personally added different features such as formik/yup, Jest and so on.. ###
 <br/>
 Figma: https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=0%3A1
 
