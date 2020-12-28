@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button/> snapshot 1`] = `
+exports[`Standart Button component test cases <Button/> snapshot 1`] = `
 <View
   style={
     Array [
